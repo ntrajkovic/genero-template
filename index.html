@@ -17,18 +17,22 @@
     <!-- Mobile devices -->
 
     <!-- Sidebar -->
-    <aside class="w3-sidebar w3-collapse w3-hide-large" id="sidebar" style="width:300px">
-      <p>Sidebar</p>
-      <button onclick="closeSidebar()">Close</button>
+    <aside class="w3-sidebar w3-collapse w3-bar-block w3-rightbar w3-border-red w3-animate-left w3-hide-large" id="sidebar" style="width:300px">
+      <p class="w3-bar-item w3-border-bottom w3-border-red">Item 1</p>
+      <p class="w3-bar-item w3-border-bottom w3-border-red">Item 2</p>
+      <p class="w3-bar-item w3-border-bottom w3-border-red">Item 3</p>
+      <button class="w3-bar-item w3-border-bottom w3-border-red" onclick="closeSidebar()">Close</button>
     </aside> <!-- Sidebar -->
 
     <!-- Desktop computers -->
 
     <!-- Header -->
-    <header class="w3-hide-small w3-hide-medium">
+    <header class="w3-light-blue w3-bottombar w3-border-red w3-hide-small w3-hide-medium">
       <!-- 980px centered -->
       <div class="w3-content w3-center">
+        <br>
         <img src="images/genero-logo.png" alt="GENERO Logo" style="max-width:70%">
+        <br><br>
       </div> <!-- 980px centered -->
     </header> <!-- Header -->
 
@@ -36,12 +40,14 @@
     <div class="w3-content">
 
       <!-- Navbar -->
-      <nav class="w3-hide-small w3-hide-medium" id="navbar" style="float:left;width:300px">
-        <p>Navbar</p>
+      <nav class="w3-bar-block w3-hide-small w3-hide-medium" id="navbar" style="float:left;width:300px">
+        <p class="w3-bar-item w3-border-bottom w3-border-red">Item 1</p>
+        <p class="w3-bar-item w3-border-bottom w3-border-red">Item 2</p>
+        <p class="w3-bar-item w3-border-bottom w3-border-red">Item 3</p>
       </nav> <!-- Navbar -->
 
       <!-- Content -->
-      <div class="w3-main w3-container" id="content" style="margin-left:300px">
+      <div class="w3-main w3-container w3-leftbar w3-border-red" id="content" style="margin-left:300px">
 
         <h1>GENERO Template</h1>
         <p style="font-variant:small-caps">A Journal of Feminist Theory and Cultural Studies</p>
@@ -71,24 +77,24 @@
     </div> <!-- 980px centered -->
 
     <!-- Footer -->
-    <footer class="w3-hide-small w3-hide-medium">
+    <footer class="w3-light-blue w3-topbar w3-border-red w3-hide-small w3-hide-medium">
       <!-- 980px centered -->
       <div class="w3-content">
 
         <!-- Responsive row -->
         <div class="w3-row">
           <!-- Publisher -->
-          <div class="w3-half w3-center" id="publisher">
+          <div class="w3-container w3-half w3-center" id="publisher">
             Publister 1
           </div> <!-- Publisher -->
           <!-- Co-publisher -->
-          <div class="w3-half w3-center" id="co-publisher">
+          <div class="w3-container w3-half w3-center" id="co-publisher">
             Publisher 2
           </div> <!-- Co-publisher -->
         </div> <!-- Responsive row -->
 
         <!-- Copyright -->
-        <div class="w3-center" id="copyright">
+        <div class="w3-container w3-center" id="copyright">
           <p>Copyright &copy; 2018 GENERO Journal. All rights reserved.</p>
         </div> <!-- Copyright -->
 
