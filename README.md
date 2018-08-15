@@ -11,4 +11,8 @@ The GENERO journal is published by the:
 
 Official website: ...
 
+## ToDo
+
+* ...
+
 Copyright &copy; 2018 Faculty of Political Sciences, University of Belgrade; Women's Studies Center, Belgrade. All rights reserved.
