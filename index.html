@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Nenad Trajkovic (nenad.trajkovic@gmail.com), Webmaster">
-    <meta name="author" content="Katarina Loncarevic (katarina.loncarevic@gmail.com), Deputy Editor-in-chief">
+    <meta name="author" content="Katarina Loncarevic (katarina.loncarevic@gmail.com), Deputy editor-in-chief">
+    <meta name="author" content="Nenad Trajkovic (nenad.trajkovic@gmail.com), Web developer">
     <title>GENERO Template</title>
     <meta name="description" content="A journal of feminist theory and cultural studies.">
     <meta name="keywords" content="GENERO, Journal, Feminist, Theory, Cultural, Studies">
@@ -16,23 +16,38 @@
 
     <!-- Mobile devices -->
 
+    <!-- Content overlay -->
+    <div class="w3-overlay" onclick="closeSidebar()" id="content-overlay" style="cursor:pointer"></div>
+
     <!-- Sidebar -->
-    <aside class="w3-sidebar w3-collapse w3-bar-block w3-rightbar w3-border-red w3-animate-left w3-hide-large" id="sidebar" style="width:300px">
-      <p class="w3-bar-item w3-border-bottom w3-border-red">Item 1</p>
-      <p class="w3-bar-item w3-border-bottom w3-border-red">Item 2</p>
-      <p class="w3-bar-item w3-border-bottom w3-border-red">Item 3</p>
-      <button class="w3-bar-item w3-border-bottom w3-border-red" onclick="closeSidebar()">Close</button>
+    <aside class="w3-sidebar w3-collapse w3-animate-left w3-bar-block w3-rightbar w3-border-red w3-hide-large" id="sidebar" style="width:300px;z-index:5">
+      <!-- <button class="w3-bar-item w3-button w3-light-blue w3-hover-black" onclick="closeSidebar()"><span class="w3-badge w3-right">&times;</span></button> -->
+      <img class="w3-bar-item w3-light-blue w3-padding-16" src="images/genero-logo.png" alt="GENERO Logo" onclick="closeSidebar()" style="max-width:100%">
+      <div class="w3-bar-item w3-light-blue" onclick="closeSidebar()">A JOURNAL OF FEMINIST THEORY AND CULTURAL STUDIES</div>
+      <div class="w3-bar-item w3-light-blue w3-large" onclick="closeSidebar()"><span class="w3-xlarge"><b><sup>#</sup>20</b></span> &ndash; Belgrade 2016</div>
+      <nav class="w3-margin-top">
+        <a class="w3-bar-item w3-button w3-hover-light-blue w3-padding-16 w3-border-bottom w3-border-red" href="">Item 1</a>
+        <a class="w3-bar-item w3-button w3-hover-light-blue w3-padding-16 w3-border-bottom w3-border-red" href="">Item 2</a>
+        <a class="w3-bar-item w3-button w3-hover-light-blue w3-padding-16" href="">Item 3</a>
+        <a class="w3-bar-item w3-button w3-text-grey w3-hover-light-blue w3-padding-16 w3-border-bottom w3-border-red" href="">Faculty of Political Sciences, University of Belgrade</a>
+        <a class="w3-bar-item w3-button w3-text-grey w3-hover-light-blue w3-padding-16" href="">Women's Studies Center, Belgrade</a>
+      </nav>
+      <div class="w3-bar-item w3-text-grey w3-padding-16">Copyright &copy; 2018 GENERO Journal. All rights reserved.</div>
     </aside> <!-- Sidebar -->
 
     <!-- Desktop computers -->
 
     <!-- Header -->
     <header class="w3-light-blue w3-bottombar w3-border-red w3-hide-small w3-hide-medium">
-      <!-- 980px centered -->
-      <div class="w3-content w3-center">
-        <br>
-        <img src="images/genero-logo.png" alt="GENERO Logo" style="max-width:70%">
-        <br><br>
+      <div class="w3-content w3-center"> <!-- 980px centered -->
+        <img class="w3-section" src="images/genero-logo.png" alt="GENERO Logo" style="max-width:70%">
+        <table class="w3-margin-top w3-left-align" style="margin-left:auto;margin-right:auto;margin-bottom:-2px">
+          <tr>
+            <td class="w3-padding w3-right-align"><span class="w3-jumbo" style="line-height:0.7em"><b><sup>#</sup>20</span></b><br><span class="w3-xxlarge">2016</span></td>
+            <td class="w3-padding w3-leftbar w3-rightbar w3-border-red">A JOURNAL OF<br>FEMINIST THEORY<br>AND CULTURAL<br>STUDIES</td>
+            <td class="w3-padding">Belgrade<br>2016</td>
+          </tr>
+        </table>
       </div> <!-- 980px centered -->
     </header> <!-- Header -->
 
@@ -40,17 +55,16 @@
     <div class="w3-content">
 
       <!-- Navbar -->
-      <nav class="w3-bar-block w3-hide-small w3-hide-medium" id="navbar" style="float:left;width:300px">
-        <p class="w3-bar-item w3-border-bottom w3-border-red">Item 1</p>
-        <p class="w3-bar-item w3-border-bottom w3-border-red">Item 2</p>
-        <p class="w3-bar-item w3-border-bottom w3-border-red">Item 3</p>
+      <nav class="w3-bar-block w3-left w3-hide-small w3-hide-medium" style="width:300px">
+        <a class="w3-bar-item w3-button w3-hover-light-blue w3-padding-16 w3-border-bottom w3-border-red" href="">Item 1</a>
+        <a class="w3-bar-item w3-button w3-hover-light-blue w3-padding-16 w3-border-bottom w3-border-red" href="">Item 2</a>
+        <a class="w3-bar-item w3-button w3-hover-light-blue w3-padding-16 w3-border-bottom w3-border-red" href="">Item 3</a>
       </nav> <!-- Navbar -->
 
       <!-- Content -->
-      <div class="w3-main w3-container w3-leftbar w3-border-red" id="content" style="margin-left:300px">
+      <div class="w3-main w3-padding w3-leftbar w3-border-red" style="margin-left:300px">
 
         <h1>GENERO Template</h1>
-        <p style="font-variant:small-caps">A Journal of Feminist Theory and Cultural Studies</p>
 
         <!-- ... -->
         <section id="">
@@ -71,30 +85,34 @@
         </section> <!-- ... -->
 
         <!-- Sidebar button / mobile devices -->
-        <button class="w3-hide-large" onclick="openSidebar()">Open</button>
+        <button class="w3-button w3-circle w3-light-blue w3-hover-light-blue w3-xlarge w3-card-4 w3-hide-large" onclick="openSidebar()" style="position:fixed;right:16px;bottom:16px"><b>G</b></button>
 
       </div> <!-- Content -->
     </div> <!-- 980px centered -->
 
     <!-- Footer -->
     <footer class="w3-light-blue w3-topbar w3-border-red w3-hide-small w3-hide-medium">
-      <!-- 980px centered -->
-      <div class="w3-content">
+      <div class="w3-content"> <!-- 980px centered -->
+        <div class="w3-row"> <!-- Responsive row -->
 
-        <!-- Responsive row -->
-        <div class="w3-row">
           <!-- Publisher -->
-          <div class="w3-container w3-half w3-center" id="publisher">
-            Publister 1
+          <div class="w3-half w3-center w3-padding w3-rightbar w3-border-red">
+            <p>Faculty of Political Sciences,<br>University of Belgrade</p>
+            <!-- <img src="images/fps-logo.png" alt="FPS Logo" style="max-height:64px"> -->
+            <p>Jove Ilića 165, 11000 Belgrade</p>
           </div> <!-- Publisher -->
+
           <!-- Co-publisher -->
-          <div class="w3-container w3-half w3-center" id="co-publisher">
-            Publisher 2
+          <div class="w3-half w3-center w3-padding">
+            <p>Women's Studies Center, Belgrade</p>
+            <!-- <img src="images/wsc-logo.png" alt="WSC Logo" style="max-height:64px"> -->
+            <p>Jove Ilića 165, 11000 Belgrade</p>
           </div> <!-- Co-publisher -->
+
         </div> <!-- Responsive row -->
 
         <!-- Copyright -->
-        <div class="w3-container w3-center" id="copyright">
+        <div class="w3-center w3-padding">
           <p>Copyright &copy; 2018 GENERO Journal. All rights reserved.</p>
         </div> <!-- Copyright -->
 
