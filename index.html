@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Katarina Loncarevic (katarina.loncarevic@gmail.com), Deputy editor-in-chief">
     <meta name="author" content="Nenad Trajkovic (nenad.trajkovic@gmail.com), Web developer">
-    <title>GENERO Template</title>
+    <meta name="author" content="Katarina Loncarevic (katarina.loncarevic@gmail.com), Deputy editor-in-chief">
+    <title>GENERO Journal Template</title>
     <meta name="description" content="A journal of feminist theory and cultural studies.">
     <meta name="keywords" content="GENERO, Journal, Feminist, Theory, Cultural, Studies">
     <link rel="stylesheet" href="style/w3.css">
@@ -21,17 +21,21 @@
 
     <!-- Sidebar -->
     <aside class="w3-sidebar w3-collapse w3-animate-left w3-bar-block w3-rightbar w3-border-red w3-hide-large" id="sidebar" style="width:300px;z-index:5">
-      <header onclick="closeSidebar()" style="cursor:pointer">
-        <img class="w3-bar-item w3-light-blue w3-padding-16" src="images/genero-logo.png" alt="GENERO Logo" style="max-width:100%">
+      <header class="w3-bottombar w3-border-red" onclick="closeSidebar()" style="cursor:pointer">
+        <img class="w3-bar-item w3-light-blue w3-padding-16 w3-image" src="images/genero-logo.png" alt="GENERO Logo">
         <div class="w3-bar-item w3-light-blue">A JOURNAL OF FEMINIST THEORY AND CULTURAL STUDIES</div>
-        <div class="w3-bar-item w3-light-blue w3-large"><span class="w3-xlarge"><b><sup>#</sup>20</b></span> &ndash; Belgrade 2016</div>
+        <div class="w3-bar-item w3-light-blue"><b>ISSN: 1451-2203</b></div>
       </header>
-      <nav class="w3-margin-top">
-        <a class="w3-bar-item w3-button w3-hover-light-blue w3-padding-16 w3-border-bottom w3-border-red" href="">Item 1</a>
-        <a class="w3-bar-item w3-button w3-hover-light-blue w3-padding-16 w3-border-bottom w3-border-red" href="">Item 2</a>
-        <a class="w3-bar-item w3-button w3-hover-light-blue w3-padding-16" href="">Item 3</a>
+      <nav>
+        <a class="w3-bar-item w3-button w3-light-blue w3-hover-light-blue w3-padding-16 w3-border-bottom w3-border-red" href="index.html">Home</a>
+        <a class="w3-bar-item w3-button w3-hover-light-blue w3-padding-16 w3-border-bottom w3-border-red" href="polices.html">Polices</a>
+        <a class="w3-bar-item w3-button w3-hover-light-blue w3-padding-16 w3-border-bottom w3-border-red" href="announcements.html">Announcements</a>
+        <a class="w3-bar-item w3-button w3-hover-light-blue w3-padding-16 w3-border-bottom w3-border-red" href="current-issue.html">Current Issue</a>
+        <a class="w3-bar-item w3-button w3-hover-light-blue w3-padding-16 w3-border-bottom w3-border-red" href="archive.html">Archive</a>
+        <a class="w3-bar-item w3-button w3-hover-light-blue w3-padding-16" href="contact.html">Contact</a>
         <a class="w3-bar-item w3-button w3-hover-light-blue w3-padding-16 w3-border-bottom w3-border-red" href="http://www.fpn.bg.ac.rs/en/" target="_blank">Faculty of Political Sciences, University of Belgrade</a>
-        <a class="w3-bar-item w3-button w3-hover-light-blue w3-padding-16" href="http://www.zenskestudie.edu.rs/en/" target="_blank">Women's Studies Center, Belgrade</a>
+        <a class="w3-bar-item w3-button w3-hover-light-blue w3-padding-16 w3-border-bottom w3-border-red" href="http://www.zenskestudie.edu.rs/en/" target="_blank">Women's Studies Center, Belgrade</a>
+        <a class="w3-bar-item w3-button w3-hover-light-blue w3-padding-16" href="http://www.rwfund.org/eng/" target="_blank">This site is supported by Roconstruction Women's Fund, Belgrade</a>
       </nav>
       <footer>
         <div class="w3-bar-item w3-text-grey w3-padding-16">Copyright &copy; 2018 GENERO Journal. All rights reserved.</div>
@@ -44,13 +48,10 @@
     <header class="w3-light-blue w3-bottombar w3-border-red w3-hide-small w3-hide-medium">
       <div class="w3-content w3-center"> <!-- 980px centered -->
         <img class="w3-section" src="images/genero-logo.png" alt="GENERO Logo" style="max-width:70%">
-        <table class="w3-margin-top w3-left-align" style="margin-left:auto;margin-right:auto;margin-bottom:-2px">
-          <tr>
-            <td class="w3-padding w3-right-align"><span class="w3-jumbo" style="line-height:0.7em"><b><sup>#</sup>20</span></b><br><span class="w3-xxlarge">2016</span></td>
-            <td class="w3-padding w3-leftbar w3-rightbar w3-border-red">A JOURNAL OF<br>FEMINIST THEORY<br>AND CULTURAL<br>STUDIES</td>
-            <td class="w3-padding">Belgrade<br>2016</td>
-          </tr>
-        </table>
+        <div class="w3-row">
+          <div class="w3-half w3-padding w3-right-align w3-rightbar w3-border-red">A JOURNAL OF<br>FEMINIST THEORY<br>AND CULTURAL<br>STUDIES</div>
+          <div class="w3-half w3-padding w3-left-align"><br><b>ISSN: 1451-2203</b></div>
+        </div>
       </div> <!-- 980px centered -->
     </header> <!-- Header -->
 
@@ -59,15 +60,18 @@
 
       <!-- Navbar -->
       <nav class="w3-bar-block w3-left w3-hide-small w3-hide-medium" style="width:300px">
-        <a class="w3-bar-item w3-button w3-hover-light-blue w3-padding-16 w3-border-bottom w3-border-red" href="">Item 1</a>
-        <a class="w3-bar-item w3-button w3-hover-light-blue w3-padding-16 w3-border-bottom w3-border-red" href="">Item 2</a>
-        <a class="w3-bar-item w3-button w3-hover-light-blue w3-padding-16 w3-border-bottom w3-border-red" href="">Item 3</a>
+        <a class="w3-bar-item w3-button w3-light-blue w3-hover-light-blue w3-padding-16 w3-border-bottom w3-border-red" href="index.html">Home</a>
+        <a class="w3-bar-item w3-button w3-hover-light-blue w3-padding-16 w3-border-bottom w3-border-red" href="polices.html">Polices</a>
+        <a class="w3-bar-item w3-button w3-hover-light-blue w3-padding-16 w3-border-bottom w3-border-red" href="announcements.html">Announcements</a>
+        <a class="w3-bar-item w3-button w3-hover-light-blue w3-padding-16 w3-border-bottom w3-border-red" href="current-issue.html">Current Issue</a>
+        <a class="w3-bar-item w3-button w3-hover-light-blue w3-padding-16 w3-border-bottom w3-border-red" href="archive.html">Archive</a>
+        <a class="w3-bar-item w3-button w3-hover-light-blue w3-padding-16 w3-border-bottom w3-border-red" href="contact.html">Contact</a>
       </nav> <!-- Navbar -->
 
       <!-- Content -->
       <div class="w3-main w3-padding w3-leftbar w3-border-red" style="margin-left:300px">
 
-        <h1>GENERO Template</h1>
+        <h1>GENERO Journal Template</h1>
 
         <!-- ... -->
         <section id="">
@@ -99,22 +103,30 @@
         <div class="w3-row"> <!-- Responsive row -->
 
           <!-- Publisher -->
-          <div class="w3-half w3-center w3-padding w3-rightbar w3-border-red">
+          <div class="w3-third w3-center w3-padding w3-rightbar w3-border-red">
             <a href="http://www.fpn.bg.ac.rs/en/" target="_blank" style="text-decoration:none">
               <p>Faculty of Political Sciences, University of Belgrade<br>
-                 Jove Ilića 165, 11000 Belgrade, Serbia</p>
+                 Jove Ilića 165, Belgrade, Serbia</p>
               <img src="images/fps-logo.png" alt="FPS Logo" style="max-height:32px">
             </a>
           </div> <!-- Publisher -->
 
           <!-- Co-publisher -->
-          <div class="w3-half w3-center w3-padding">
+          <div class="w3-third w3-center w3-padding w3-rightbar w3-border-red">
             <a href="http://www.zenskestudie.edu.rs/en/" target="_blank" style="text-decoration:none">
               <p>Women's Studies Center, Belgrade<br>
-                 Jove Ilića 165, 11000 Belgrade, Serbia</p>
+                 Jove Ilića 165, Belgrade, Serbia<br><br></p>
               <img src="images/wsc-logo.png" alt="WSC Logo" style="max-height:36px">
             </a>
           </div> <!-- Co-publisher -->
+
+          <!-- Sponsor -->
+          <div class="w3-third w3-center w3-padding">
+            <a href="http://www.rwfund.org/eng/" target="_blank" style="text-decoration:none">
+              <p>This site is supported by Roconstruction Women's Fund, Belgrade, Serbia</p>
+              <img src="images/rwfund-logo.png" alt="RWFund Logo" style="max-height:36px">
+            </a>
+          </div> <!-- Sponsor -->
 
         </div> <!-- Responsive row -->
 
