@@ -33,6 +33,12 @@ html {
   margin-left: 300px; /* must match #sidebar & #navbar */
 }
 
+#g-button {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+}
+
 /* Footer */
 
 #publisher a, #co-publisher a, #sponsor a {
