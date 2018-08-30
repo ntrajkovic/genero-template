@@ -1,1 +1,54 @@
-/* GENERO CSS */
+/* General */
+
+html {
+  overflow-y: scroll; /* always show scrollbar */
+}
+
+.c-pointer {
+  cursor: pointer;
+}
+
+/* Sidebar */
+
+#sidebar {
+  width: 300px; /* must match #navbar & #content */
+  z-index: 5;
+}
+
+/* Header */
+
+#genero-logo {
+  max-width: 70%;
+}
+
+/* Navbar */
+
+#navbar {
+  width: 300px; /* must match #sidebar & #content */
+}
+
+/* Content */
+
+#content {
+  margin-left: 300px; /* must match #sidebar & #navbar */
+}
+
+#g-button {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+}
+
+/* Footer */
+
+#publisher a, #co-publisher a, #sponsor a {
+  text-decoration: none;
+}
+
+#fps-logo {
+  height: 32px;
+}
+
+#wsc-logo, #rwfund-logo {
+  height: 36px;
+}
