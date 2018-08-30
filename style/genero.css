@@ -41,7 +41,7 @@ html {
 
 /* Footer */
 
-footer a {
+#publisher a, #co-publisher a, #sponsor a {
   text-decoration: none;
 }
 
@@ -49,10 +49,6 @@ footer a {
   height: 32px;
 }
 
-#wsc-logo {
-  height: 36px;
-}
-
-#rwfund-logo {
+#wsc-logo, #rwfund-logo {
   height: 36px;
 }
