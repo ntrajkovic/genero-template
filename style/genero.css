@@ -13,7 +13,7 @@ html {
 /* Sidebar */
 
 #sidebar {
-  width: 300px;
+  width: 300px; /* must match #navbar & #content */
   z-index: 5;
 }
 
@@ -30,13 +30,13 @@ html {
 /* Navbar */
 
 #navbar {
-  width: 300px;
+  width: 300px; /* must match #sidebar & #content */
 }
 
 /* Content */
 
 #content {
-  margin-left: 300px;
+  margin-left: 300px; /* must match #sidebar & #navbar */
 }
 
 /* Footer */
