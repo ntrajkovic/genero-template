@@ -1,1 +1,5 @@
-/* GENERO CSS */
+/* General */
+
+html {
+  overflow-y: scroll; /* always show scrollbar */
+}
