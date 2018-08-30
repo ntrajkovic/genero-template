@@ -17,11 +17,11 @@
     <!-- Mobile devices -->
 
     <!-- Content overlay -->
-    <div class="w3-overlay" onclick="closeSidebar()" id="content-overlay" style="cursor:pointer"></div>
+    <div class="w3-overlay" onclick="closeSidebar()" id="content-overlay"></div>
 
     <!-- Sidebar -->
-    <aside class="w3-sidebar w3-collapse w3-animate-left w3-bar-block w3-rightbar w3-border-red w3-hide-large" id="sidebar" style="width:300px;z-index:5">
-      <header class="w3-bottombar w3-border-red" onclick="closeSidebar()" style="cursor:pointer">
+    <aside class="w3-sidebar w3-collapse w3-animate-left w3-bar-block w3-rightbar w3-border-red w3-hide-large" id="sidebar">
+      <header class="w3-bottombar w3-border-red" onclick="closeSidebar()">
         <img class="w3-bar-item w3-light-blue w3-padding-16 w3-image" src="images/genero-logo.png" alt="GENERO Logo">
         <div class="w3-bar-item w3-light-blue">A JOURNAL OF FEMINIST THEORY AND CULTURAL STUDIES</div>
         <div class="w3-bar-item w3-light-blue"><b>ISSN: 1451-2203</b></div>
@@ -47,7 +47,7 @@
     <!-- Header -->
     <header class="w3-light-blue w3-bottombar w3-border-red w3-hide-small w3-hide-medium">
       <div class="w3-content w3-center"> <!-- 980px centered -->
-        <img class="w3-section" src="images/genero-logo.png" alt="GENERO Logo" style="max-width:70%">
+        <img class="w3-section" src="images/genero-logo.png" alt="GENERO Logo" id="genero-logo">
         <div class="w3-row">
           <div class="w3-half w3-padding w3-right-align w3-rightbar w3-border-red">A JOURNAL OF<br>FEMINIST THEORY<br>AND CULTURAL<br>STUDIES</div>
           <div class="w3-half w3-padding w3-left-align"><br><b>ISSN: 1451-2203</b></div>
@@ -59,7 +59,7 @@
     <div class="w3-content">
 
       <!-- Navbar -->
-      <nav class="w3-bar-block w3-left w3-hide-small w3-hide-medium" style="width:300px">
+      <nav class="w3-bar-block w3-left w3-hide-small w3-hide-medium" id="navbar">
         <a class="w3-bar-item w3-button w3-light-blue w3-hover-light-blue w3-padding-16 w3-border-bottom w3-border-red" href="index.html">Home</a>
         <a class="w3-bar-item w3-button w3-hover-light-blue w3-padding-16 w3-border-bottom w3-border-red" href="polices.html">Polices</a>
         <a class="w3-bar-item w3-button w3-hover-light-blue w3-padding-16 w3-border-bottom w3-border-red" href="announcements.html">Announcements</a>
@@ -69,7 +69,7 @@
       </nav> <!-- Navbar -->
 
       <!-- Content -->
-      <div class="w3-main w3-padding w3-leftbar w3-border-red" style="margin-left:300px">
+      <div class="w3-main w3-padding w3-leftbar w3-border-red" id="content">
 
         <h1>GENERO Journal Template</h1>
 
@@ -104,27 +104,27 @@
 
           <!-- Publisher -->
           <div class="w3-third w3-center w3-padding w3-rightbar w3-border-red">
-            <a href="http://www.fpn.bg.ac.rs/en/" target="_blank" style="text-decoration:none">
+            <a href="http://www.fpn.bg.ac.rs/en/" target="_blank">
               <p>Faculty of Political Sciences, University of Belgrade<br>
                  Jove Ilića 165, Belgrade, Serbia</p>
-              <img src="images/fps-logo.png" alt="FPS Logo" style="max-height:32px">
+              <img src="images/fps-logo.png" alt="FPS Logo" id="fps-logo">
             </a>
           </div> <!-- Publisher -->
 
           <!-- Co-publisher -->
           <div class="w3-third w3-center w3-padding w3-rightbar w3-border-red">
-            <a href="http://www.zenskestudie.edu.rs/en/" target="_blank" style="text-decoration:none">
+            <a href="http://www.zenskestudie.edu.rs/en/" target="_blank">
               <p>Women's Studies Center, Belgrade<br>
                  Jove Ilića 165, Belgrade, Serbia<br><br></p>
-              <img src="images/wsc-logo.png" alt="WSC Logo" style="max-height:36px">
+              <img src="images/wsc-logo.png" alt="WSC Logo" id="wsc-logo">
             </a>
           </div> <!-- Co-publisher -->
 
           <!-- Sponsor -->
           <div class="w3-third w3-center w3-padding">
-            <a href="http://www.rwfund.org/eng/" target="_blank" style="text-decoration:none">
+            <a href="http://www.rwfund.org/eng/" target="_blank">
               <p>This site is supported by Roconstruction Women's Fund, Belgrade, Serbia</p>
-              <img src="images/rwfund-logo.png" alt="RWFund Logo" style="max-height:36px">
+              <img src="images/rwfund-logo.png" alt="RWFund Logo" id="rwfund-logo">
             </a>
           </div> <!-- Sponsor -->
 

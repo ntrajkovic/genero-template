@@ -3,3 +3,56 @@
 html {
   overflow-y: scroll; /* always show scrollbar */
 }
+
+/* Body */
+
+#content-overlay {
+  cursor: pointer;
+}
+
+/* Sidebar */
+
+#sidebar {
+  width: 300px;
+  z-index: 5;
+}
+
+#sidebar > header {
+  cursor: pointer;
+}
+
+/* Header */
+
+#genero-logo {
+  max-width: 70%;
+}
+
+/* Navbar */
+
+#navbar {
+  width: 300px;
+}
+
+/* Content */
+
+#content {
+  margin-left: 300px;
+}
+
+/* Footer */
+
+footer a {
+  text-decoration: none;
+}
+
+#fps-logo {
+  height: 32px;
+}
+
+#wsc-logo {
+  height: 36px;
+}
+
+#rwfund-logo {
+  height: 36px;
+}
