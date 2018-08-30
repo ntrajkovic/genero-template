@@ -4,9 +4,7 @@ html {
   overflow-y: scroll; /* always show scrollbar */
 }
 
-/* Body */
-
-#content-overlay {
+.c-pointer {
   cursor: pointer;
 }
 
@@ -15,10 +13,6 @@ html {
 #sidebar {
   width: 300px; /* must match #navbar & #content */
   z-index: 5;
-}
-
-#sidebar > header {
-  cursor: pointer;
 }
 
 /* Header */
