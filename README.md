@@ -10,7 +10,7 @@ The GENERO journal is published by:
 * The Women's Studies Center, Belgrade (Co-publisher)
 
 The GENERO journal website is supported by:
-* Reconstruction Women's Fund, Belgrade
+* Reconstruction Women's Fund, Belgrade (Sponsor)
 
 Official website: ...\
 Development: [ntrajkovic.github.io/genero-template](https://ntrajkovic.github.io/genero-template)
@@ -27,8 +27,8 @@ Development: [ntrajkovic.github.io/genero-template](https://ntrajkovic.github.io
 
 ## Dev. Notes
 
-* **Sidebar & Navbar** &ndash; Sidebar (w3-sidebar) and content (w3-main) go from page top to bottom on mobile devices. Contrary, on large displays, sidebar can not fit between header and footer (w3-sidebar nature), so it is replaced by "normal" navbar (w3-left vs. w3-main).
-* **Commit #d40fee5** &ndash; CSS rule `!important` is deleted from w3-collapse, to enable w3-hide-large for w3-sidebar. This is the fastest approach.
+* **Sidebar & Navbar** &ndash; Sidebar (w3-sidebar) and content (w3-main) go from page top to bottom on mobile devices. Contrary, on large screens, sidebar can not fit between header and footer (w3-sidebar nature), so it is replaced by "normal" navbar (w3-left vs. w3-main).
+* **Commit #d40fee5** &ndash; CSS rule _!important_ is deleted from w3-collapse, to enable w3-hide-large for w3-sidebar. This is the fastest approach.
 * **Sidebar Dev. Tip** &ndash; For easier and faster development, remove w3-hide-large from sidebar section!
 * **Sidebar ID Names** &ndash; Use _#id-name-sidebar_ for id-s that occur in other sections too.
 
