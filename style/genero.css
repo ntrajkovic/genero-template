@@ -33,6 +33,15 @@ html {
   margin-left: 300px; /* must match #sidebar & #navbar */
 }
 
+#content h1 {
+  font-weight: bold;
+}
+
+#content h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
 #g-button {
   position: fixed;
   bottom: 16px;
