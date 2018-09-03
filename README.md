@@ -23,12 +23,13 @@ Development: [ntrajkovic.github.io/genero-template](https://ntrajkovic.github.io
 ## To-Do
 
 * **G-Button** &ndash; Use "G" image from logo, instead of "G" letter?
+* **G-Button Color** &ndash; Use color of header (style) or color of border (logic)?
 * **Font** &ndash; Download font files and use them from site to avoid Google dependency?
 
 ## Dev. Notes
 
 * **Sidebar & Navbar** &ndash; Sidebar (w3-sidebar) and content (w3-main) go from page top to bottom on mobile devices. Contrary, on large screens, sidebar can not fit between header and footer (w3-sidebar nature), so it is replaced by "normal" navbar (w3-left vs. w3-main).
-* **Commit #d40fee5** &ndash; CSS rule _!important_ is deleted from w3-collapse, to enable w3-hide-large for w3-sidebar. This is the fastest approach.
+* **Commit #d40fee5** &ndash; CSS rule `!important` is deleted from w3-collapse, to enable w3-hide-large for w3-sidebar. This is the fastest approach.
 * **Sidebar Dev. Tip** &ndash; For easier and faster development, remove w3-hide-large from sidebar section!
 * **Sidebar ID Names** &ndash; Use _#id-name-sidebar_ for id-s that occur in other sections too.
 
