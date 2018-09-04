@@ -1,4 +1,4 @@
-# GENERO Journal Template
+# GENERO Template
 
 _This is the GENERO journal website template._
 
@@ -23,7 +23,7 @@ Development: [ntrajkovic.github.io/genero-template](https://ntrajkovic.github.io
 ## To-Do
 
 * **G-Button** &ndash; Use "G" image from logo, instead of "G" letter?
-* **G-Button Color** &ndash; Use color of header (style) or color of border (logic)?
+* **G-Button Color** &ndash; Use header color (stylish), or border color (logical)?
 * **Font** &ndash; Download font files and use them from site to avoid Google dependency?
 
 ## Dev. Notes
@@ -32,6 +32,7 @@ Development: [ntrajkovic.github.io/genero-template](https://ntrajkovic.github.io
 * **Commit #d40fee5** &ndash; CSS rule `!important` is deleted from w3-collapse, to enable w3-hide-large for w3-sidebar. This is the fastest approach.
 * **Sidebar Dev. Tip** &ndash; For easier and faster development, remove w3-hide-large from sidebar section!
 * **Sidebar ID Names** &ndash; Use _#id-name-sidebar_ for id-s that occur in other sections too.
+* **Commit #3cb7b02** &ndash; W3.CSS classes w3-third and w3-twothird are used without parent w3-row container class (w3-row does not support w3-left navbar), in cover page section, in index.html. It works!
 
 &diams; &diams; &diams;
 
