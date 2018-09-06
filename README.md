@@ -28,11 +28,11 @@ Development: [ntrajkovic.github.io/genero-template](https://ntrajkovic.github.io
 
 ## Dev. Notes
 
-* **Sidebar & Navbar** &ndash; Sidebar (w3-sidebar) and content (w3-main) go from page top to bottom on mobile devices. Contrary, on large screens, sidebar can not fit between header and footer (w3-sidebar nature), so it is replaced by "normal" navbar (w3-left vs. w3-main).
-* **Commit #d40fee5** &ndash; CSS rule `!important` is deleted from w3-collapse, to enable w3-hide-large for w3-sidebar. This is the fastest approach.
+* **Sidebar & Navbar** &ndash; Sidebar (w3-sidebar) and content (w3-main) go from page top to bottom on mobile devices. Contrary, on large screens, sidebar can not fit between header and footer (w3-sidebar nature), so it is replaced by "normal" navbar (w3-left).
+* **Commit #d40fee5** &ndash; CSS rule _!important_ is deleted from w3-collapse, to enable w3-hide-large for w3-sidebar. This is the fastest approach.
 * **Sidebar Dev. Tip** &ndash; For easier and faster development, remove w3-hide-large from sidebar section!
 * **Sidebar ID Names** &ndash; Use _#id-name-sidebar_ for id-s that occur in other sections too.
-* **Commit #3cb7b02** &ndash; W3.CSS classes w3-third and w3-twothird are used without parent w3-row container class (w3-row does not support w3-left navbar), in cover page section, in index.html. It works!
+* **Commit #3cb7b02** &ndash; W3.CSS classes w3-third and w3-twothird are used without parent w3-row container, because w3-row does not support w3-left in navbar, in cover page section, in index.html. It works!
 
 &diams; &diams; &diams;
 
