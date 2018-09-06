@@ -33,6 +33,7 @@ Development: [ntrajkovic.github.io/genero-template](https://ntrajkovic.github.io
 * **Sidebar Dev. Tip** &ndash; For easier and faster development, remove w3-hide-large from sidebar section!
 * **Sidebar ID Names** &ndash; Use _#id-name-sidebar_ for id-s that occur in other sections too.
 * **Commit #3cb7b02** &ndash; W3.CSS classes w3-third and w3-twothird are used without parent w3-row container, because w3-row does not support w3-left in navbar, in cover page section, in index.html. It works!
+* **Footer Sections** &ndash; According to [HTML Reference](https://www.w3.org/TR/html/sections.html#the-section-element), those are not sections (Note 2, last sentence).
 
 &diams; &diams; &diams;
 
