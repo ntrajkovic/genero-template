@@ -8,6 +8,10 @@ html {
   cursor: pointer;
 }
 
+.spacer {
+  height: 64px;
+}
+
 /* Sidebar */
 
 #sidebar {
