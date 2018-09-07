@@ -52,6 +52,34 @@ html {
   font-weight: bold;
 }
 
+/* issue */
+
+#content .item, article h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+article .author {
+  font-style: italic;
+}
+
+#genero-cover-current {
+  width: 70px;
+}
+
+#topic {
+  margin-top: 32px;
+}
+
+/* archive */
+
+#archive-end {
+  float: none;
+  clear: both;
+}
+
+/* g-button */
+
 #g-button {
   position: fixed;
   bottom: 16px;
