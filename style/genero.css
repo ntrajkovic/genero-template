@@ -52,7 +52,7 @@ html {
   font-weight: bold;
 }
 
-/* issue - begin */
+/* issue */
 
 #content .item, article h3 {
   margin-top: 0px;
@@ -71,7 +71,14 @@ article .author {
   margin-top: 32px;
 }
 
-/* issue - end */
+/* archive */
+
+#archive-end {
+  float: none;
+  clear: both;
+}
+
+/* g-button */
 
 #g-button {
   position: fixed;
