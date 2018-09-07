@@ -52,7 +52,9 @@ html {
   font-weight: bold;
 }
 
-article .item {
+/* issue - begin */
+
+#content .item, article h3 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -60,6 +62,16 @@ article .item {
 article .author {
   font-style: italic;
 }
+
+#issue-image {
+  width: 70px;
+}
+
+#topic {
+  margin-top: 32px;
+}
+
+/* issue - end */
 
 #g-button {
   position: fixed;
