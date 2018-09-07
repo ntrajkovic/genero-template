@@ -52,6 +52,15 @@ html {
   font-weight: bold;
 }
 
+article .item {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+article .author {
+  font-style: italic;
+}
+
 #g-button {
   position: fixed;
   bottom: 16px;
