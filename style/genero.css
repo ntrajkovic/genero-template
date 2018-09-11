@@ -73,6 +73,10 @@ article .author {
 
 /* archive */
 
+.archive-card {
+  padding: 16px 16px 0px;
+}
+
 #archive-end {
   float: none;
   clear: both;
