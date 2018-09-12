@@ -63,12 +63,8 @@ article .author {
   font-style: italic;
 }
 
-#genero-cover-current {
+#genero-cover-issue {
   width: 70px;
-}
-
-#topic {
-  margin-top: 32px;
 }
 
 /* archive */
