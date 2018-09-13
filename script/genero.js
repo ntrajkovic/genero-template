@@ -11,9 +11,6 @@ function closeSidebar() {
 }
 
 function toggleAccordion(id) {
-
-  // w3-light-blue must match w3-hover-light-blue in html files
-
   var a = document.getElementById(id);
   if (a.className.indexOf("w3-show") == -1) {
     a.className += " w3-show";
