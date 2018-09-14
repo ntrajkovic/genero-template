@@ -88,21 +88,12 @@ article .author {
 
 /* Footer */
 
-#publisher a, #co-publisher a, #sponsor a {
-  text-decoration: none;
-}
-
 #publisher, #co-publisher, #sponsor {
-  position: relative;
   height: 150px;
 }
 
-#fps-logo, #cws-logo, #rwfund-logo {
-  position: absolute;
-  margin: auto;
-  bottom: 0px;
-  right: 0px;
-  left: 0px;
+#publisher a, #co-publisher a, #sponsor a {
+  text-decoration: none;
 }
 
 #fps-logo {
