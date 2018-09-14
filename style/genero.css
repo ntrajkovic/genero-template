@@ -97,7 +97,7 @@ article .author {
   height: 150px;
 }
 
-#fps-logo, #wsc-logo, #rwfund-logo {
+#fps-logo, #cws-logo, #rwfund-logo {
   position: absolute;
   bottom: 0px;
 }
@@ -106,6 +106,6 @@ article .author {
   height: 32px;
 }
 
-#wsc-logo, #rwfund-logo {
+#cws-logo, #rwfund-logo {
   height: 36px;
 }
