@@ -92,6 +92,16 @@ article .author {
   text-decoration: none;
 }
 
+#publisher, #co-publisher, #sponsor {
+  position: relative;
+  height: 150px;
+}
+
+#fps-logo, #wsc-logo, #rwfund-logo {
+  position: absolute;
+  bottom: 0px;
+}
+
 #fps-logo {
   height: 32px;
 }
