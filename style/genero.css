@@ -88,6 +88,10 @@ article .author {
 
 /* Footer */
 
+#publisher, #co-publisher, #sponsor {
+  height: 150px;
+}
+
 #publisher a, #co-publisher a, #sponsor a {
   text-decoration: none;
 }
@@ -96,6 +100,6 @@ article .author {
   height: 32px;
 }
 
-#wsc-logo, #rwfund-logo {
+#cws-logo, #rwfund-logo {
   height: 36px;
 }
