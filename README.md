@@ -19,6 +19,7 @@ Development: [ntrajkovic.github.io/genero-template](https://ntrajkovic.github.io
 
 * **Important** &ndash; Remove no-indexing meta and "template" strings from original, hosted site!
 * **Downloads** &ndash; Keep `/downloads` folder empty to preserve GitHub space.
+* **W3.CSS** &ndash; Do not update W3.CSS if not necessary!
 
 ## To Do
 
