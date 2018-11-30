@@ -52,6 +52,12 @@ html {
   font-weight: bold;
 }
 
+/* polices */
+
+#contents a {
+  text-decoration: none;
+}
+
 /* issue */
 
 #content .item, article h3 {
