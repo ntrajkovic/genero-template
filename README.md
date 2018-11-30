@@ -1,18 +1,18 @@
 # GENERO Template
 
-_This is the GENERO journal website template._
+_GENERO journal website template._
 
 GENERO is a journal of feminist theory and cultural studies.
 
 The GENERO journal is published by:
 
 * The Faculty of Political Sciences, University of Belgrade (Publisher)
-* The Women's Studies Center, Belgrade (Co-publisher)
+* The Center for Women's Studies, Belgrade (Co-publisher)
 
 The GENERO journal website is supported by:
-* Reconstruction Women's Fund, Belgrade (Sponsor)
+* The Reconstruction Women's Fund, Belgrade (Sponsor)
 
-Official website: ...\
+Official website: not available yet\
 Development: [ntrajkovic.github.io/genero-template](https://ntrajkovic.github.io/genero-template)
 
 ## Notes
@@ -20,21 +20,19 @@ Development: [ntrajkovic.github.io/genero-template](https://ntrajkovic.github.io
 * **Important** &ndash; Remove no-indexing meta and "template" strings from original, hosted site!
 * **Downloads** &ndash; Keep `/downloads` folder empty to preserve GitHub space.
 
-## To-Do
+## To Do
 
+* **Cover Image** &ndash; Add slider for more images on Home Page?
 * **G-Button** &ndash; Use "G" image from logo, instead of "G" letter?
-* **G-Button Color** &ndash; Use header color (stylish), or border color (logical)?
-* **Font** &ndash; Download font files and use them from site to avoid Google dependency?
 
 ## Dev. Notes
 
-* **Sidebar & Navbar** &ndash; Sidebar (w3-sidebar) and content (w3-main) go from page top to bottom on mobile devices. Contrary, on large screens, sidebar can not fit between header and footer (w3-sidebar nature), so it is replaced by "normal" navbar (w3-left).
-* **Commit #d40fee5** &ndash; CSS rule `!important` is deleted from w3-collapse, to enable w3-hide-large for w3-sidebar. This is the fastest approach.
-* **Sidebar Dev. Tip** &ndash; For easier and faster development, remove w3-hide-large from sidebar section!
-* **Sidebar ID Names** &ndash; Use _#id-name-sidebar_ for id-s that occur in other sections too.
-* **Commit #3cb7b02** &ndash; W3.CSS classes w3-third and w3-twothird are used without parent w3-row container, because w3-row does not support w3-left in navbar, in cover page section, in index.html. It works!
-* **Footer "Sections"** &ndash; According to [HTML Reference](https://www.w3.org/TR/html/sections.html#the-section-element), those are not sections.
+* **Sidebar & Navbar** &ndash; Sidebar (w3-sidebar) goes from page top to bottom (w3-sidebar nature). It can not fit between header and footer (on large screens in this case), so it is "replaced" by Navbar (which is w3-left).
+* **Commit #d40fee5** &ndash; CSS rule `!important` is deleted from w3-collapse, to enable w3-hide-large for w3-sidebar. This is the fastest approach!
+* **Commit #3cb7b02** &ndash; W3.CSS classes w3-third and w3-twothird are used without parent w3-row container (cover page section, index.html), because w3-row does not support Navbar's w3-left (float). It works!
+* **Sidebar Dev. Tip** &ndash; For easier and faster development, temporarily remove w3-hide-large from sidebar section.
+* **Sidebar IDs** &ndash; Use _#name-sidebar_ for ids that occur in other sections too.
 
-&diams; &diams; &diams;
+## Copyright
 
-Copyright &copy; 2018 Faculty of Political Sciences, University of Belgrade; Women's Studies Center, Belgrade. All rights reserved.
+Copyright &copy; 2018 Faculty of Political Sciences, University of Belgrade; Center for Women's Studies, Belgrade. All rights reserved.
